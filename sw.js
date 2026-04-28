@@ -1,4 +1,4 @@
-const CACHE = 'htl-v1';
+const CACHE = 'htl-v2';
 const BASE = '/hold-the-line';
 const ASSETS = [
   BASE + '/',
