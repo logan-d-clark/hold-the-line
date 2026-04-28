@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#09090b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Hold The Line">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Hold The Line</title>
+</head>
+<body>
+  <div id="app">
+
+    <header class="header">
+      <h1 class="title">Hold The Line</h1>
+      <p class="date-display" id="date-display"></p>
+    </header>
+
+    <div class="card quote-card">
+      <span class="quote-icon">🎖️</span>
+      <div>
+        <div class="quote-label">Sergeant's Orders</div>
+        <p class="quote-text" id="quote-text"></p>
+      </div>
+    </div>
+
+    <section id="logger-section"></section>
+    <section id="stats-section"></section>
+
+    <section class="heatmap-section">
+      <div class="section-label">Activity</div>
+      <div class="heatmap-scroll" id="heatmap-scroll"></div>
+    </section>
+
+    <div class="spacer"></div>
+    <section id="settings-section"></section>
+
+    <div class="milestone-overlay hidden" id="milestone-overlay">
+      <div class="milestone-modal" id="milestone-modal"></div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
